@@ -16,21 +16,6 @@
         <div><span id="seconds">00</span><span>Seconds</span></div>
       </div>
     </div>
-    <script>
-      // 创建时间函数
-      function clock() {
-        var hours = document.getElementById('hour')
-        var minutes = document.getElementById('minutes')
-        var seconds = document.getElementById('seconds')
-        var h = new Date().getHours()
-        var m = new Date().getMinutes()
-        var s = new Date().getSeconds()
-        hours.innerHTML = h
-        minutes.innerHTML = m
-        seconds.innerHTML = s
-      }
-      // 使用定时器
-      var interval = setInterval(clock, 1000)
-    </script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
